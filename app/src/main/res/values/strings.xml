@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exerc1</string>
+    <string name="bt1">Exibir</string>
+    <string name="bt2">Listar</string>
+</resources>
