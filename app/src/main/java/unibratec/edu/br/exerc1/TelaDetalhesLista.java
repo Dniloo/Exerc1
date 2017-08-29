@@ -14,10 +14,10 @@ public class TelaDetalhesLista extends AppCompatActivity {
 
         Intent it = getIntent();
         String nome = it.getStringExtra("nome");
-        int idade = it.getIntExtra("idade", -1);
+        String endereco = it.getStringExtra("endereco");
 
         TextView tv = (TextView)findViewById(R.id.tv);
-        tv.setText(String.format("Nome: %s / Idade: %d", nome , idade));
+        tv.setText(String.format("Nome: %s / Endereco: %s", nome , endereco));
 
     }
 }

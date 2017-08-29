@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button2:
                 Intent it = new Intent(this, TelaDetalhesLista.class);
                 it.putExtra("nome", "Danilo");
-                it.putExtra("idade", 35 );
+                it.putExtra("endereco", "Rua SANTA CRUZ" );
                 startActivity(it);
                 break;
         }
